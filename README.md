@@ -1,4 +1,4 @@
-# Docker-for-Beginner
+# Lab-1
 
 ## Docker Setup and Management
 
