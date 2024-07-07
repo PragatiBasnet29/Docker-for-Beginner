@@ -1,11 +1,8 @@
 # Docker-for-Beginner
-Certainly! Below is a sample README file for your Docker setup, detailing basic commands and steps for managing Docker containers and images.
 
----
+## Docker Setup and Management
 
-# Docker Setup and Management
-
-## Docker Installation
+### Docker Installation
 
 Ensure Docker is installed on your system. You can check the Docker version with the following command:
 
@@ -13,9 +10,9 @@ Ensure Docker is installed on your system. You can check the Docker version with
 sudo docker version
 ```
 
-## Managing Docker Containers
+### Managing Docker Containers
 
-### Listing All Containers
+#### Listing All Containers
 
 To list all containers (running and stopped), use:
 
@@ -23,7 +20,7 @@ To list all containers (running and stopped), use:
 docker ps -a
 ```
 
-### Running a Container
+#### Running a Container
 
 To run a container, for example, Redis:
 
@@ -31,7 +28,7 @@ To run a container, for example, Redis:
 docker run redis
 ```
 
-### Stopping a Container
+#### Stopping a Container
 
 To stop a running container, use:
 
@@ -45,7 +42,7 @@ Example:
 docker stop inspiring_bose
 ```
 
-### Removing a Container
+#### Removing a Container
 
 To remove a container, first stop it (if it's running), then remove it:
 
@@ -59,7 +56,7 @@ Example:
 docker rm jolly_rosalind
 ```
 
-### Running a Container in Detached Mode
+#### Running a Container in Detached Mode
 
 To run a container in detached mode, use the `-d` flag:
 
@@ -67,9 +64,9 @@ To run a container in detached mode, use the `-d` flag:
 docker run -d nginx:1.14-alpine webapp
 ```
 
-## Managing Docker Images
+### Managing Docker Images
 
-### Listing All Images
+#### Listing All Images
 
 To list all Docker images, use:
 
@@ -77,7 +74,7 @@ To list all Docker images, use:
 docker images
 ```
 
-### Pulling an Image
+#### Pulling an Image
 
 To pull an image from a repository, use:
 
@@ -91,7 +88,7 @@ Example:
 docker pull nginx:1.14-alpine
 ```
 
-### Removing an Image
+#### Removing an Image
 
 To remove an image, use:
 
@@ -105,9 +102,9 @@ Example:
 docker rmi ubuntu
 ```
 
-## Useful Docker Commands
+### Useful Docker Commands
 
-### Running a Command in a New Container
+#### Running a Command in a New Container
 
 To run a command in a new container, use:
 
@@ -121,7 +118,7 @@ Example:
 docker run alpine /bin/sh
 ```
 
-### Inspecting a Container
+#### Inspecting a Container
 
 To display detailed information on a container, use:
 
@@ -129,7 +126,7 @@ To display detailed information on a container, use:
 docker inspect <container_id_or_name>
 ```
 
-### Viewing Container Logs
+#### Viewing Container Logs
 
 To view the logs of a container, use:
 
@@ -137,7 +134,7 @@ To view the logs of a container, use:
 docker logs <container_id_or_name>
 ```
 
-### Executing a Command in a Running Container
+#### Executing a Command in a Running Container
 
 To execute a command in a running container, use:
 
@@ -151,7 +148,7 @@ Example:
 docker exec -it inspiring_bose /bin/sh
 ```
 
-## Example Workflow
+### Example Workflow
 
 1. **Pulling an Image:**
 
@@ -191,4 +188,4 @@ docker exec -it inspiring_bose /bin/sh
 
 ---
 
-This README file provides a basic guide to managing Docker containers and images, ensuring you can perform common tasks with ease.
+This README file provides a basic guide to managing Docker containers and images, ensuring you can easily perform common tasks.
