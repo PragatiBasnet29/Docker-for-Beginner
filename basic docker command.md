@@ -1,4 +1,3 @@
-
 # Run the NGINX image. If the image is not present, it will pull it from Docker Hub.
 docker run nginx
 
@@ -73,9 +72,3 @@ docker run -d ubuntu
 
 # Execute a command within a running container (replace 'container_name' with the container's actual name).
 docker exec container_name cat /etc/*release*
-```
-
-Key corrections:
-- Added spaces between `cat` and `/etc/*release*`.
-- Clarified the `docker run -d` command's behavior.
-- Provided explanations for `docker ps` vs `docker ps -a`.
