@@ -1,6 +1,4 @@
-Here is your corrected Docker command sequence with explanations:
 
-```bash
 # Run the NGINX image. If the image is not present, it will pull it from Docker Hub.
 docker run nginx
 
