@@ -1,4 +1,3 @@
-```asciidoc
 = Docker Usage Guide
 
 This README provides a guide to common Docker commands including running containers, port mapping, volume mapping, inspecting containers, and viewing logs.
